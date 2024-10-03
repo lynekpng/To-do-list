@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <div class="bg-white w-fit flex flex-col ">
+    <div class="bg-white w-fit flex flex-col p-8 shadow-md rounded-lg">
       <Header />
       <Input addTask={addTask} />
       <Todolist tasks={tasks} handleBoxChecked={handleBoxChecked}/>
